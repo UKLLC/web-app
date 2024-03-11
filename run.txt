@@ -1,0 +1,2 @@
+$export CLEARDB_DATABASE_URL = mysql://bc6f5814d00e73:efa68502@eu-cluster-west-01.k8s.cleardb.net/heroku_9146b3bcb7a2912
+python app.py
