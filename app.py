@@ -29,8 +29,8 @@ server = app.server
 
 def connect():
     try:
-        #cnxn = sqlalchemy.create_engine("mysql+pymysql://bc6f5814d00e73:efa68502@eu-cluster-west-01.k8s.cleardb.net/heroku_9146b3bcb7a2912").connect()
-        cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
+        cnxn = sqlalchemy.create_engine("mysql+pymysql://bc6f5814d00e73:efa68502@eu-cluster-west-01.k8s.cleardb.net/heroku_9146b3bcb7a2912").connect()
+        #cnxn = sqlalchemy.create_engine('mysql+pymysql://bq21582:password_password@127.0.0.1:3306/ukllc').connect()
         return cnxn
 
     except Exception as e:
